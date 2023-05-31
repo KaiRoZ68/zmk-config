@@ -98,7 +98,9 @@
             &kp RA(8)  &kp NUBS   &kp RA(7)   &kp RA(NUBS) &trans      &kp LS(RBRC) &kp MINUS  &kp SQT  &kp LBKT   &kp LS(MINUS)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │  &       │  _       │  +       │  │       │          │
-            &kp RA(9)  &kp LS(NUBS) &kp RA(0) &kp RA(MINUS) &trans     &trans    &kp EQUAL  &kp RBRC   &kp NUHS   &kp SLSH
+        //  &kp RA(9)  &kp LS(NUBS) &kp RA(0) &kp RA(MINUS) &trans     &trans    &kp EQUAL  &kp RBRC   &kp NUHS   &kp SLSH
+             &trans     &trans     &trans     &trans     &trans         &kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE   &trans
+
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
