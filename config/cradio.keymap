@@ -92,13 +92,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │  [       │  {       │  }       │          │   │  ^       │  (       │  )       │  ]       │  ~       │
-            &kp LS(1) &kp LS(2)    &kp LS(3)  &kp LS(4) &kp LS(5)      &kp LS(6)  &kp LS(7)  &kp LS(8)  &kp LS(9)  &kp LS(0)
+            &kp LS(N1) &kp LS(N2)    &kp LS(N3)  &kp LS(N4) &kp LS(N5)      &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  !       │  @       │  #       │  $       │  %       │   │  *       │  -       │  =       │  \       │  `       │
-            &kp RA(8)  &kp NUBS   &kp RA(7)   &kp RA(NUBS) &trans      &kp LS(RBRC) &kp MINUS  &kp SQT  &kp LBKT   &kp LS(MINUS)
+            &kp RA(N8)  &kp NUBS   &kp RA(N7)   &kp RA(NUBS) &trans      &kp LS(RBRC) &kp MINUS  &kp SQT  &kp LBKT   &kp LS(MINUS)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │  &       │  _       │  +       │  │       │          │
-            &kp RA(9)  &kp LS(NUBS) &kp RA(0) &kp RA(MINUS) &trans     &trans    &kp EQUAL  &kp RBRC   &kp NUHS   &kp SLASH
+            &kp RA(N9)  &kp LS(NUBS) &kp RA(N0) &kp RA(MINUS) &trans     &trans    &kp EQUAL  &kp RBRC   &kp NUHS   &kp SLASH
 
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
