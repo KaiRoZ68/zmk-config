@@ -100,7 +100,7 @@
             &kp RA(N8)  &kp NUBS   &kp RA(N7)   &kp RA(NUBS) &trans      &kp LS(RBRC) &kp MINUS  &kp SQT  &kp LBKT   &kp LS(MINUS)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │  &       │  _       │  +       │  │       │          │
-            &kp RA(N9)  &kp LS(NUBS) &kp RA(N0) &kp RA(MINUS) &trans     &kp LS(NUHS)    &kp EQUAL  &kp NUHS &kp RBRC  &kp SLASH
+            &kp RA(N9)  &kp LS(NUBS) &kp RA(N0) &kp RA(MINUS) &trans     &kp LS(NUHS)    &kp EQUAL  &kp NUHS    &kp KP_PLUS  &kp SLASH
 
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &lt 1 LC(BSPC)
