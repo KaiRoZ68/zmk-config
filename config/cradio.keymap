@@ -1,4 +1,4 @@
-// Copyright (c) 2022 The ZMK Contributors
+4// Copyright (c) 2022 The ZMK Contributors
 // SPDX-License-Identifier: MIT
 
 #include <behaviors.dtsi>
@@ -9,7 +9,7 @@
 #define HRML(k1,k2,k3,k4) &ht LSHFT k1  &ht LALT k2  &ht LCTRL k3  &ht LGUI k4
 #define HRMR(k1,k2,k3,k4) &ht RGUI k1  &ht RCTRL k2  &ht RALT k3  &ht RSHFT k4
 #define XCV(k1,k2,k3) &ht RC(X) k1  &ht RC(C) k2  &ht RC(V) k3
-
+#define CT(k1,k2,k3,k4,k5) &ht RC(1) k1    &ht RC(2) k2 &ht RC(3) k3   &ht RC(4) k4   &ht RC(5) k5
 
 / {
     combos {
@@ -77,7 +77,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ 1        │  2       │     3    │  4       │    5     │   │   6      │  7       │    8     │ 9        │     0    │
-            &kp N1     &kp N2     &kp N3      &kp N4     &kp N5        &kp N6      &kp N7    &kp N8     &kp N9     &kp N0
+            CT( N1,       N2,       N3,       N4)     &kp N5        &kp N6      &kp N7    &kp N8     &kp N9     &kp N0
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ DELETE   │  4       │  5       │  6       │          │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
             &kp F11    &kp F12    &kp PG_UP  &kp PG_DN  &kp HOME       &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp END
