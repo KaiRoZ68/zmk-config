@@ -10,7 +10,7 @@
 #define HRMR(k1,k2,k3,k4) &ht RGUI k1  &ht RCTRL k2  &ht RALT k3  &ht RSHFT k4
 #define XCV(k1,k2,k3) &ht RC(X) k1  &ht RC(C) k2  &ht RC(V) k3
 #define CT(k1,k2,k3,k4,k5) &ht RC(N1) k1    &ht RC(N2) k2 &ht RC(N3) k3   &ht RC(N4) k4   &ht RC(N5) k5
-#define UNDO(k1) &ht RC(Y) k1
+#define UDO(k1) &ht RC(Y) k1
 
 / {
     combos {
@@ -65,7 +65,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  Q       │  W       │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │  P       │
-            &kp Q      &kp W      &kp E      &kp R      &kp T          UNDO(Y)       &kp U      &kp I      &kp O      &kp P
+            &kp Q      &kp W      &kp E      &kp R      &kp T          UDO(Y)       &kp U      &kp I      &kp O      &kp P
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │ ' "      │
             HRML(A,        S,         D,         F)     &kp G          &kp H      HRMR(J,        K,         L,        SEMI)
