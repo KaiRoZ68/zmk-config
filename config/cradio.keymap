@@ -4,6 +4,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
 
 // Home row mods macro
 #define HRML(k1,k2,k3,k4) &ht LSHFT k1  &ht LALT k2  &ht LCTRL k3  &ht LGUI k4
@@ -121,10 +122,10 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ RESET    │          │          │          │PROFILE 0 │   │          │          │          │          │  RESET   │
-           &sys_reset  &trans     &kp C_VOL_UP    &bt BT_SEL 3 &bt BT_SEL 0    &trans     &trans     &trans     &trans    &sys_reset
+           &sys_reset  &trans     &kp C_VOL_UP    &bt BT_SEL 3 &bt BT_SEL 0    &out OUT_USB   &trans     &trans     &trans    &sys_reset
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER│
-          &bootloader  &trans     &kp C_VOL_DN    &bt BT_SEL 4  &bt BT_SEL 1    &trans     &trans     &trans     &trans    &bootloader
+          &bootloader  &trans     &kp C_VOL_DN    &bt BT_SEL 4  &bt BT_SEL 1   &out OUT_BLE   &trans     &trans     &trans    &bootloader
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │ CLEAR BT │PROFILE 2 │   │          │          │          │          │          │
             &trans     &trans     &kp C_MUTE    &bt BT_CLR &bt BT_SEL 2    &trans     &trans     &trans     &trans     &kp CAPS
