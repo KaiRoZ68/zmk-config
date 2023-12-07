@@ -76,7 +76,7 @@
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
             &mt LSHFT Z   XCV( X,    C,       V)      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &mt RSHFT FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &mo 2   &kp ENTER     &kp SPACE  &lt 1 BSPC
+                                            &mo 2   &kp SPACE     &kp SPACE  &lt 1 BSPC
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
